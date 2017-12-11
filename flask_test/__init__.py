@@ -5,7 +5,7 @@ from .base import (
     TestCase,
     validates_form,
 )
-from database import DatabaseSetup
+from .database import DatabaseSetup
 from .view import ViewSetup
 
 
